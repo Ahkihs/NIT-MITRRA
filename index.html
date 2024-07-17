@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive FAQ Accordion | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="accordion">
+    <div class="image-box">
+      <img src="mainImg.png" alt="">
+    </div>
+    <div class="accordion-text">
+      <div class="title">FAQ</div>
+    <ul class="faq-text">
+      <li>
+        <div class="question-arrow">
+          <span class="question">Is branch sliding  available in NITRR?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>No ,the sliding was available till last year but from now onwards there is no branch sliding in NITRR.
+        </p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Where my parents and guardians will stay if they came in NIT RR campus?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p> females gaurdian they will stay in the girls hostel by taking permission of the matron /warden.
+          Boys guardian will stay in boys hostel with the same procedure as above.
+          They will also stay in the guest house in the campus if it is available.
+          </p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question"> If I have to go to my local guardian should I go without informing others if staying in campus hostel?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p> you can only go to local gaurdian house if it is mentioned in your MIS or you had fill the form with their address otherwise it is not permitted.
+        </p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">When will I get the josaa/csab refund?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>When will I get the josaa/csab refund?
+        </p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Should I have to open SBI account?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p> it's not compulsory to open it but as NITRr has SBI as it's official partner so it is advisable to open SBI account for hostel/ others refunds.</p>
+        <span class="line"></span>
+      </li>
+    </ul>
+    </div>
+  </div>
+
+
+  <script>
+    let li = document.querySelectorAll(".faq-text li");
+    for (var i = 0; i < li.length; i++) {
+      li[i].addEventListener("click", (e)=>{
+        let clickedLi;
+        if(e.target.classList.contains("question-arrow")){
+          clickedLi = e.target.parentElement;
+        }else{
+          clickedLi = e.target.parentElement.parentElement;
+        }
+       clickedLi.classList.toggle("showAnswer");
+      });
+    }
+  </script>
+
+</body>
+</html>
