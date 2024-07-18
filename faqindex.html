@@ -3,23 +3,110 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Responsive FAQ Accordion | CodingLab </title>
-    <link rel="stylesheet" href="style.css">
+    <title>  FAQ  | CodingLab </title>
+    <link rel="stylesheet" href="faqstyle.css">
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="navbar2.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');</style>
+  
+    <link rel="stylesheet" href="footer.css">
+    <link rel="shortcut icon" href="images/logo3.png" type="image/x-icon">
+    <!----- FONT AWESOME CSS FOR ICONS FONTS ------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  
+  </head>
 <body>
+  <div class="navigate">
+    <header >
+        <div class="container3">
+            <nav>
+                <div class="menu-icons">
+                   <i class="fas fa-bars"></i>
+                   <i class="fas fa-times"></i>
+                </div>
+               
+                <a href="Home.html" class="logo"> <img class="ok" src="images/logo3.png" alt="" srcset="width= 20%"></a>
+                <ul class="nav-list">
+                    <li>
+                        <a href="Home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="studyresources.html">Study Resources</a>
+                        <!-- <ul class="sub-menu">
+                            <li>
+                                <a href="studyresources.html">Youtube Channels and Study Tips</a>
+                            </li>
+                           
+                        </ul> -->
+                    </li>
+                    <li>
+                        <a href="#">Hostels and Mess Near By<i class="fas fa-caret-down"></i></a>
+                        
+                            
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="girlshostel.html">Girls Hostels</a>
+                                </li>
+                                <li>
+                                    <a href="boyshostel.html">Boys Hostels</a>
+                                </li>
+                                <li>
+                                    <a href="mess.html">Mess Facilities</a>
+                                </li>
+                                </ul>
+                        
+                    </li>
+                    <li>
+                      <a href="#">Clubs and Fests<i class="fas fa-caret-down"></i>
+                         
+                      </a>
+                      <ul class="sub-menu">
+                          <li>
+                              <a href="club.html">Clubs</a>
+                          </li>
+                          <li>
+                              <a href="fests.html">Fests</a>
+                          </li>
+                      </ul>
+                          </li>
+                            <li>
+                                <a href="tourist_att.html">Explore Raipur</a>
+                            </li>
+                        <!-- </ul> -->
+                    </li>
+                    <li>
+                        <a href="queryform.html">Ask Your Doubts</a>
+                    </li>
+                    <li>
+                        <a href="faqindex.html">FAQ's</a>
+                    </li>
+                    <li>
+                        <a href="team.html">Our Team</a>
+                    </li>
+                   
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+</div>
+
+
+    <script src="navbar2.js"></script>
+  <section class="Faq">
   <div class="accordion">
     <div class="image-box">
-      <img src="mainImg.png" alt="">
+      <img src="images/faqmainImg.png" alt="">
     </div>
     <div class="accordion-text">
-      <div class="title">FAQ</div>
+      <div class="title">FREQUENTLY ASKED QUESTIONS</div>
     <ul class="faq-text">
       <li>
         <div class="question-arrow">
-          <span class="question">Is branch sliding  available in NITRR?
+          <span class="question">Is branch sliding available in NITRR?
           </span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
@@ -33,19 +120,29 @@
           </span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
-        <p><a href="grading_system[1].pdf">Grading System PDF </a>
+        <p><a href="grading_system[1].pdf" target="_blank">Grading System PDF </a>
         </p>
         <span class="line"></span>
       </li>
       <li>
         <div class="question-arrow">
-          <span class="question">Where my parents and guardians will stay if they came in NIT RR campus?
+          <span class="question">To whom I contact for various problems?
           </span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
-        <p> females gaurdian they will stay in the girls hostel by taking permission of the matron /warden.
-          Boys guardian will stay in boys hostel with the same procedure as above.
-          They will also stay in the guest house in the campus if it is available.
+        <p><a href="Important Numbers.pdf" target="_blank">Contact Details PDF</a>
+        </p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Where can my parents and guardians stay if they come to NITRR campus?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p> Females guardian- they will stay in the girls hostel by taking permission of the matron /warden.
+          Males guardian- They will stay in boys hostel with the same procedure as above.
+          They can also stay in the guest house in the campus if rooms are available.
           </p>
         <span class="line"></span>
       </li>
@@ -55,7 +152,7 @@
           </span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
-        <p> you can only go to local gaurdian house if it is mentioned in your MIS or you had fill the form with their address otherwise it is not permitted.
+        <p> You can only go to local guardian house if it is mentioned in your MIS or you had fill the form with their address otherwise it is not permitted.
         </p>
         <span class="line"></span>
       </li>
@@ -65,63 +162,50 @@
           </span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
-        <p>When will I get the josaa/csab refund?
+        <p>Processing of refund takes time, for more information contact student section.
         </p>
         <span class="line"></span>
       </li>
       <li>
         <div class="question-arrow">
-          <span class="question">Should I have to open SBI account?
+          <span class="question">Do I have to open SBI account?
           </span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
-        <p> it's not compulsory to open it but as NITRr has SBI as it's official partner so it is advisable to open SBI account for hostel/ others refunds.</p>
+        <p> It's not compulsory to open it but as NITRR has SBI as its official partner so it is advisable to open SBI account for hostel/ others refunds.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Where are the stationary shops from which I can purchase all the daily things?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p> You can find many shops in Kota which is just opposite of Saraswati Nagar railway station.</p>
+        <span class="line"></span>
+      </li>
+      <li>
+        <div class="question-arrow">
+          <span class="question">Where can I get all the Engineering Graphics materials?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p> You can get or purchase it from Seniors, in cheap prices.</p>
         <span class="line"></span>
       </li>
       <li>
         <div class="question-arrow">
           <span class="question">In which subject calculator is allowed?
-
           </span>
           <i class="bx bxs-chevron-down arrow"></i>
         </div>
-        <p> In all subjects except Maths calculator is allowed</p>
-        <span class="line"></span>
-      </li><li>
-        <div class="question-arrow">
-          <span class="question">To whom i contact for various problems?
-          </span>
-          <i class="bx bxs-chevron-down arrow"></i>
-        </div>
-        <p><a href="">Contact Details </a>
-        </p>
-        <span class="line"></span>
-      </li>
-      <li>
-        <div class="question-arrow">
-          <span class="question">Where are the stationary shops from which, I can purchase all the daily  things ? 
-
-
-          </span>
-          <i class="bx bxs-chevron-down arrow"></i>
-        </div>
-        <p> You can find many shops in the Kota which is just opposite of Saraswati Nagar railway station.</p>
-        <span class="line"></span>
-      </li>
-      <li>
-        <div class="question-arrow">
-          <span class="question">Where I can get all the EG  materials?
-
-          </span>
-          <i class="bx bxs-chevron-down arrow"></i>
-        </div>
-        <p> You can get or purchase it from Seniors ,in cheap prices.</p>
+        <p>In all subjects except Maths, calculator is allowed.</p>
         <span class="line"></span>
       </li>
     </ul>
     </div>
   </div>
-
+</section>
 
   <script>
     let li = document.querySelectorAll(".faq-text li");
@@ -137,6 +221,52 @@
       });
     }
   </script>
+  <section class="foot">
+    <footer>
+       <div class="container">
+           <div class="row">
+                 <div class="col" id="company">
+                     <img src="images/logo3.png" alt="" class="logo">
+                     
+                     <p>
+                       Made with Love, By Room No:31 <i class="fa-regular fa-heart"></i>
+                     </p>
+                    
+                     <div class="social">
+                      <a href="https://www.linkedin.com/in/mansi-chandrakar-85494a2a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                      <a href="https://www.linkedin.com/in/shikha-yadav-3830902b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                      <a href="https://www.linkedin.com/in/mokshda-bhatt-7878b5288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                     <a href="https://www.linkedin.com/in/rubeena-roy-318b69279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                     </div>
+                 </div>
 
+
+                 <div class="col" id="services">
+                    <h3>Links</h3>
+                    <div class="links">
+                       <a href="Home.html">Home</a>
+                       <a href="studyresources.html">Study Resources</a>
+                       <a href="girlshostel.html">Near by Hostels</a>
+                       <a href="fests.html">Clubs and Fests</a>
+                    </div>
+                 </div>
+
+                 <div class="col" id="useful-links">
+                    <h3>Links</h3>
+                    <div class="links">
+                       <!-- <a href="#">Subject Guidance</a> -->
+                       <a href="tourist_att.html">Explore Raipur</a>
+                       <a href="queryform.html"> Ask your Doubts</a>
+                       <a href="faqindex.html">FAQ</a>
+                       <a href="team.html">Our Team</a>
+                    </div>
+                 </div>
+           </div>
+
+          
+
+       </div>
+    </footer>
+   </section>
 </body>
 </html>
