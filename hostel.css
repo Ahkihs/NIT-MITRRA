@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .girlshostel
+{
+    background-image: linear-gradient(rgb(233, 232, 199), rgb(252, 252, 177) , rgb(255, 255, 162), rgb(254, 254, 119)
+   );
+} */
+.hostel
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(233, 232, 199), rgb(252, 252, 177) , rgb(255, 255, 162), rgb(254, 254, 119)
+    );
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+
+}
+.container27
+{
+   width: 1100px;
+   max-width: 100%;
+   margin: 0 auto;
+   
+
+}
+.girlshostelhead
+{
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Kanit;
+    font-size: 2.5em;
+    color: #741717;
+    text-shadow:1px 1px rgb(239, 193, 9);
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card
+{   flex: 1 1 21rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 20px;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0 0 15px black;
+    padding: 10px 20px;
+    align-self: normal ;
+    font-family: Kanit;
+}
+.card h4
+{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+    color: rgb(58, 2, 2);
+   
+
+}
+.card img 
+{
+    max-width: 200px;
+}
+.card p
+{   font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: Kanit;
+}
+.card .btn
+{
+    display: inline-block;
+    margin-top: auto;
+    background: rgb(255, 238, 107);
+    color: white;
+    text-align: center;
+    color: rgb(100, 1, 1);
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+-o-border-radius:5px;
+}
