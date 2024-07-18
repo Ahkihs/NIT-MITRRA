@@ -86,8 +86,9 @@ textarea {
 }
 
 form {
+
   padding: 2.3rem 2.2rem;
-  z-index: 10;
+  z-index: 2;
   overflow: hidden;
   position: relative;
 }
@@ -314,6 +315,7 @@ background-color: #0077B5;
 @media (max-width: 850px) {
   .form {
     grid-template-columns: 1fr;
+    
   }
 
   .contact-info:before {
