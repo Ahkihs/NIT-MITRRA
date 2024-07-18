@@ -5,21 +5,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins" , sans-serif;
+ 
 }
-body{
+.Faq{
+  
+  font-family: Kanit;
   display: flex;
+  
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #7d2ae8;
+  background-image: linear-gradient(rgb(233, 232, 199), rgb(252, 252, 177) , rgb(255, 255, 162), rgb(254, 254, 119)
+  );
   padding: 40px;
 }
 ::selection{
-  background: #7d2ae8;
+  background: #ec8f13;
   color: #fff;
 }
+
 .accordion{
+  margin-top: 35px;
+  box-shadow: 2px 2px 2px 2px #ec8f13;
   display: flex;
   max-width: 1010px;
   width: 100%;
@@ -28,6 +35,7 @@ body{
   background: #fff;
   border-radius: 25px;
   padding: 45px 90px 45px 60px;
+  
 }
 .accordion .image-box{
   height: 360px;
@@ -42,10 +50,10 @@ body{
   width: 60%;
 }
 .accordion .accordion-text .title{
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 600;
-  color: #7d2ae8;
-  font-family: 'Fira Sans', sans-serif;
+  color: #812a08;
+  font-family: Kanit, sans-serif;
 }
 .accordion .accordion-text .faq-text{
   margin-top: 25px;
@@ -80,11 +88,11 @@ body{
 }
 .accordion-text li:hover .question-arrow .question,
 .accordion-text li:hover .question-arrow .arrow{
-  color: #7d2ae8;
+  color: #ec8f13;
 }
 .accordion-text li.showAnswer .question-arrow .question,
 .accordion-text li.showAnswer .question-arrow .arrow{
-  color: #7d2ae8;
+  color: #ec8f13;
 }
 .accordion-text li .line{
   display: block;
@@ -127,7 +135,7 @@ body{
   .accordion .image-box{
     height: 360px;
     width: 300px;
-    background: #7d2ae8;
+    background: #ec8f13;
     width: 100%;
     border-radius: 25px;
     padding: 30px;
