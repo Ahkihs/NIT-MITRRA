@@ -1,0 +1,91 @@
+/**
+*  @project  Team Profile v1.1
+*  @author   Jamshid Elmi
+*  @created  2022-04-30 22:05:13
+*  @modified 2022-04-30 22:05:13
+*  @tutorial https://youtu.be/WAq97p33Ahc
+*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+.OURTEAM {
+    padding:20px;
+    margin:50%; 
+    background-image: linear-gradient(rgb(233, 232, 199), rgb(252, 252, 177) , rgb(255, 255, 162), rgb(254, 254, 119)
+    );
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 100vh;
+  margin: 0;
+  /* background: #e1e1e1; */
+  font-family: Kanit;
+}
+.ABOUTUS{
+    
+    font-size: 30px;
+    color: black;
+    font-family:kanit;
+}
+.person {
+    align-items: center;
+    justify-content: center;
+
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+.container1 {
+  height: 312px;
+  width: 400px;
+  cursor: pointer;
+  transform: scale(0.48);
+  transition: transform 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+.circle {
+  position: absolute;
+  background: var(--color);
+  height: 380px;
+  width: 380px;
+  top: 210px;
+  left: 10px;
+  border-radius: 50%;
+}
+.person img {
+  position: relative;
+  width: 340px;
+  top: 164px;
+  left: 22px;
+  transform: translateY(20px) scale(1.15);
+  transition: transform 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+.conianer-inner {
+  position: relative;
+  clip-path: path("M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z");
+  top: -200px;
+}
+.divider {
+  height: 3px;
+  width: 130px;
+  border-radius: 5px;
+  background: var(--color);
+}
+.person h1 {
+  color: #464646;
+  margin: 16px 0 0 0;
+}
+.person p {
+  font-family: arial;
+  color: #6e6e6e;
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* hover */
+.container:hover {
+  transform: scale(0.54);
+} 
+.container:hover img {
+  transform: translateY(0) scale(1.3);
+}
