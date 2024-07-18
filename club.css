@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kanit;
+    box-sizing: border-box;
+}
+.ClubsFests
+{
+    background-image: linear-gradient(rgb(233, 232, 199), rgb(252, 252, 177) , rgb(255, 255, 162), rgb(254, 254, 119)
+   );
+   margin-top: 90px;
+   /* display: block; */
+ 
+}
+
+.timeline
+{
+    position: relative;
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+
+}
+.dabba
+{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+   opacity: 0;
+}
+
+@keyframes movedown
+{ 0%
+    {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+
+}
+.textboxed
+{
+    padding: 20px 30px;
+    position: relative;
+   background: rgb(240, 195, 111);
+    border-radius: 6px;
+    font-size: 15px ;
+
+
+}
+
+.left 
+{
+    left:0;
+
+}
+
+.right
+{
+    left: 50%;
+}
+
+.dabba img
+{position: absolute;
+    width: 100px;
+    border-radius: 50%;
+    right: -80px;
+    top: 32px;
+    z-index: 12;
+
+}
+
+.right img
+{
+    left: -20px;
+   
+}
+
+.timeline::after{
+    content:'';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #741717;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 15;
+    animation: moveline 12s linear forwards;
+
+}
+
+@keyframes moveline
+{
+    0%
+    {
+        height: 0;
+    }
+    100%
+    {
+        height: 100%;
+    }
+}
+
+.textboxed h2
+{
+  font-weight:600 ;
+}
+
+.left-arrow
+{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #741717;
+    right: -15px;
+}
+
+.right-arrow
+{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #741717;
+    left: -15px;
+}
+
+.dabba:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.dabba:nth-child(2)
+{
+    animation-delay: 1s;
+}
+.dabba:nth-child(3)
+{
+    animation-delay: 2s;
+}
+.dabba:nth-child(4)
+{
+    animation-delay: 3s;
+}
+.dabba:nth-child(5)
+{
+    animation-delay: 4s;
+}
+.dabba:nth-child(6)
+{
+    animation-delay: 5s;
+}
+.dabba:nth-child(7)
+{
+    animation-delay: 6s;
+}
+.dabba:nth-child(8)
+{
+    animation-delay: 7s;
+}
+.dabba:nth-child(9)
+{
+    animation-delay: 8s;
+}
+.dabba:nth-child(10)
+{
+    animation-delay: 9s;
+}
+.dabba:nth-child(11)
+{
+    animation-delay: 10s;
+}
+.dabba:nth-child(12)
+{
+    animation-delay: 11s;
+}
+@media screen and (max-width: 600px)
+{
+    /* .timeline
+    {
+        margin: 50px auto;
+    } */
+    
+    .timeline::after
+    {
+        left: 31px;
+    }
+    .dabba
+    { width: 100%;
+        padding-left: 60px;
+        padding-right: 25px;
+
+    }
+    .textboxed
+    {
+        font-size: 8px;
+        width: 110px;
+    }
+    .right
+    {
+        left: 0;
+    }
+
+    .left img, .right img 
+    {
+        left: 10px;
+    }
+    .left-arrow, .right-arrow{
+        border-right: 15px solid #741717;
+        border-left: 0;
+        left: -15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 18px 16px;
+    margin-bottom: 0;
+    
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 5px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 100vw;
+    margin-left: 91px;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    /* background-color: white; */
+    padding: 2px;
+    margin-left: 2px;
+    height: 250px;
+    width: 150px;
+
+
+     }
+     .content img{
+        height: 130px;
+        width: 120px;
+     
+       
+     }
+     
+
+  
+  @media screen and (max-width: 320px) {
+    .column{
+        
+        margin-left: 50%;
+    }
+    .content{
+        right: 20px;
+    }
+   
+}
+@media screen and (min-width: 768px) {
+    .column {
+        flex-wrap: nowrap;
+      width: 100%;
+    }
+}
+
+
+
+  .festhead
+  {
+    font-family: Kanit;
+    color: #741717;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
