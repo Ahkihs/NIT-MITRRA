@@ -33,7 +33,7 @@ a{
 
 }
 .girlshostelhead
-{
+{   margin-top: 12px;
     text-align: center;
     height: 100px;
     display: flex;
