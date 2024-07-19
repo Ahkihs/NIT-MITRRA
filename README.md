@@ -1,4 +1,4 @@
-# NIT-MITRRA
+
 Greetings to the NITRR community and a warm welcome to the incoming batch of '28.
 
 https://nitmitrra.netlify.app/
