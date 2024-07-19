@@ -113,9 +113,9 @@
 }
 
 @media (max-width: 994px) {
-  body{
+/*   body{
     padding: 40px 20px;
-  }
+  } */
   .accordion{
     max-width: 100%;
     padding: 45px 60px 45px 60px;
