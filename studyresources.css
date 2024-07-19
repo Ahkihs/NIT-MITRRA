@@ -12,18 +12,42 @@
   width: auto !important;
  }
 }
+body{
+    background-image: linear-gradient(rgb(233, 232, 199), rgb(252, 252, 177) , rgb(255, 255, 162), rgb(254, 254, 119)
+   );
+}
 
 @page {
     size: landscape;
     margin: 0; 
 }
+.tagss{
+    margin-top: 12px;
 
+
+}
+.resource_link{
+    background-image: linear-gradient(rgb(233, 232, 199), rgb(252, 252, 177) , rgb(255, 255, 162), rgb(254, 254, 119)
+   );
+   /* margin-left: 450px;
+   margin-right: 500px; */
+    font-size: 30px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* size: 45px; */
+    /* padding: 10px; */
+    /* margin: 90px; */
+    
+    margin-top: 110px;
+}
 .studymat{
     min-height: 100vh;
     background-image: linear-gradient(rgb(233, 232, 199), rgb(252, 252, 177) , rgb(255, 255, 162), rgb(254, 254, 119)
    );
     display: flex;
-    margin-top: 80px;
+    /* margin-top: 25px; */
     justify-content: center;
     align-items: center;
 }
