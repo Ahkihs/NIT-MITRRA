@@ -1,15 +1,15 @@
-
 .foot{
     box-sizing: border-box;
     margin:0;
     padding:0;
-    display: flex;
+    /* display: flex; */
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    min-height: 62vh;
+    /* min-height: 62vh; */
 }
 footer{
+    /* margin-top: 1px; */
      background-color:#741717;
      position: relative;
      width: 100%;
@@ -17,6 +17,7 @@ footer{
      padding: 3rem 1rem;
 }
 .container {
+    
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
