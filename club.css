@@ -278,6 +278,7 @@
   /* Content */
   .content {
     /* background-color: white; */
+      margin-top: 12px
     padding: 2px;
     margin-left: 2px;
     height: 250px;
