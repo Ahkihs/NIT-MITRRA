@@ -163,9 +163,9 @@ flex-wrap: wrap;
   .slide-content{
     margin: 0 10px;
   }
-  .swiper-navBtn{
+/*   .swiper-navBtn{
     display: none;
-  }
+  } */
   .heading{
     font-size: 40px;
   }
